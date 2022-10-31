@@ -1,10 +1,10 @@
+# /usr/bin/env python3
 from random import randint
 
 a = 288260533169915
 p = 1007621497415251
 
 FLAG = b'crypto{????????????????????}'
-
 
 def encrypt_flag(flag):
     ciphertext = []
